@@ -1,0 +1,179 @@
+h3{
+    font-size: 25px;
+    color:rgb(165, 42, 42);
+    font-weight: normal;
+}
+
+body{
+    background-color: #f4f4f4;
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+}
+
+.container{
+    width: 80%;
+    margin:auto;
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display:block;
+}
+
+.my-form input[type = "text"], .my-form textarea, .my-form input[type = "email"]{
+    padding:8px;
+    width:100%;
+}
+
+.button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+
+.clr{
+    clear: both;
+}
+
+.button:hover{
+    background: red;
+    color: white;
+}
+
+.block{
+    float:left;
+    width:33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.box-2{
+    background-color: #333;
+    color: white;
+}
+
+.box-3{
+    background-color: #333;
+    color: white;
+    border-right: 5px red solid;
+    border-left: 5px yellowgreen double;
+    border-top: 10px dodgerblue dotted;
+    border-bottom: 10px peru solid;
+    border-bottom-width: 15px;
+    padding: 25px;
+    margin-top: 30 px;
+}
+
+.box-3 h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color:red;
+}
+
+a:active{
+    color:green;
+}
+
+a:visited{
+    color:black;
+}
+
+.categ{
+    border: 1px lightcoral solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categ h5{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: beige;
+    font-size: 50px;
+}
+
+.categ li{
+    padding-bottom: 8px;
+    border-bottom: dotted 1px #333;
+    list-style-image: url(http://www.clipartbest.com/cliparts/KTj/Xzx/KTjXzxRLc.png);
+}
+
+#main-block{
+    float:left;
+    width: 70%;
+    padding:15px;
+    box-sizing: border-box;
+}
+
+#side-bar{
+    float:right;
+    width:30%;
+    background-color: #333;
+    color: #fff;
+    padding:15px;
+    box-sizing: border-box;
+}
+
+.p-box{
+    width:800px;
+    height:500px;
+    border:1px solid #000;
+    margin-top:30px;
+    position:relative;
+    background-image: url(https://thumbs.dreamstime.com/b/lion-standing-panthera-leo-years-old-isolated-white-40402975.jpg);
+}
+
+.p-box h1{
+    position:absolute;
+    top:100px;
+    left:200px;
+}
+
+.p-box h2{
+    position:absolute;
+    bottom:40px;
+    right:100px;
+}
+
+.fix-me{
+    position:fixed;
+    top:400px;
+}
+
+.my-list li:first-child{
+    background-color: #333;
+}
+
+.my-list li:last-child{
+    background-color: #333;
+}
+
+.my-list li:nth-child(5){
+    background-color: yellowgreen;
+}
+
+.my-list li:nth-child(even){
+    color: black;
+}
